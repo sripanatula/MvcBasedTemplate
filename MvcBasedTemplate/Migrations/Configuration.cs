@@ -31,19 +31,22 @@ namespace MvcBasedTemplate.Migrations
                 {
                     Name = "QuickJoin",
                     Address = "2528 Larchmount DR NE, Issaquah,WA,98029",
-                    CreatedOn = DateTime.Now
+                    CreatedOn = DateTime.Now,
+                    WebAddress = "http://www.quickjoin.com"
                 },
                 new Association 
                 { 
                     Name = "FromWithinAcademy",
                     Address = "Issaquah,WA,98029",
-                    CreatedOn = DateTime.Now
+                    CreatedOn = DateTime.Now,
+                    WebAddress = "http://www.fromwithinacademy.org"
                 },
                 new Association 
                 {
                     Name = "GanaSaraswati",
                     Address = "Issaquah,WA,98029",
-                    CreatedOn = DateTime.Now
+                    CreatedOn = DateTime.Now,
+                    WebAddress= "http://www.ganasaraswati.com"
                 }
             );
         }
